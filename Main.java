@@ -30,18 +30,22 @@ public class Main {
             System.out.println("\n--- Ast info : ---");
             printTreeInfo(ast);
 
+            System.out.println("\n==============================================================================");
+
+            System.out.println("\n--- Method 3: Build Symbol Table ---");
+            SymbolTableVisitor stVisitor = new SymbolTableVisitor();
+            ast.accept(stVisitor);
+
+            System.out.println("\n--- Scope symbols: global ---");
+            for (compilerProject.src.symbols.Symbol s : stVisitor.getSymbolTable().getGlobalScope().getAllSymbols()) {
+                System.out.println("  " + s);
+            }
+
         } catch (Exception e) {
             System.out.println("❌ Error : " + e.getMessage());
             e.printStackTrace();
         }
     }
-
-
-
-
-
-
-
     private static ASTNode buildSimpleAST() {
         ASTBuilder builder = new ASTBuilder();
 
