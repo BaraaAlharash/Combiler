@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap") screen, speech;
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media (min-device-width: 500px) and (min-device-height: 500px){
+    body {
+        background-color: #f4f4f4;
+        /*background-color: #FF0000FF;*/
+    }
+}
+
+body {
+    font-family: "Poppins", "Arial", "sans-serif";
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.product-item {
+    border-bottom: 1px dashed #bbb;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete {
+    color: red;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+button:active {
+    animation: wiggle 0.3s ease-in-out;
+}

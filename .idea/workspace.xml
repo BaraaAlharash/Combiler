@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9054c523-8ff4-4f73-b855-51458206d375" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilerProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/ASTNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/CSSDeclarationNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/CSSNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/CSSRuleNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/HTMLElementNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/HTMLNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/HTMLTextNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/Jinja2ForNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/Jinja2Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/Jinja2VariableNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/PythonAssignmentNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/PythonFunctionNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/PythonIfNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/PythonNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ast/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/ASTBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/ParserListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/grammars/CssLexer.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/grammars/CssParser.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/grammars/JinjaHtmlLexer.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/grammars/JinjaHtmlParser.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/grammars/PythonLexer.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/grammars/PythonParser.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symbols/Scope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symbols/Symbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symbols/SymbolKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symbols/SymbolTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitors/PrintVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitors/StatisticsVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitors/SymbolTableVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitors/ValidatorVisitor.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="37mwekc1BtCGT3lmR1qnXYjAt2n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9054c523-8ff4-4f73-b855-51458206d375" name="Changes" comment="" />
+      <created>1767521653427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767521653427</updated>
+    </task>
+    <servers />
+  </component>
+</project>
